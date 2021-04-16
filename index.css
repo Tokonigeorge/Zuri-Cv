@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+header{
+    margin: 2em 4em 0 4em;
+}
+
+main{
+   margin: 0 4em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div ul li + li{
+    padding-top: 0.5em;
+}
+
+main div:last-of-type{
+    margin-bottom: 4em;
+}
+
